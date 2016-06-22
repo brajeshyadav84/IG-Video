@@ -1,5 +1,8 @@
 {
     "jscodehints.detectedExclusions": [
-        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/www/js/controllers.js"
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/www/js/controllers.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/ionic-plugin-keyboard/www/android/keyboard.js"
     ]
 }

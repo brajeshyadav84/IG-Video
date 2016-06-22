@@ -1,5 +1,13 @@
 /* Empty. Add your own CSS if you like */
 
+ion-content {
+    background-color: #e7e7e7;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -12,4 +20,56 @@
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+
+.wrap-container {
+    padding: 1.5rem 1.5rem 0;
+    width: 100%
+}
+
+.wrapflex {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+.layout-twoColumn {
+    width: 47.5%;
+    margin-bottom: 1.5rem
+}
+
+.layout-oneColumn {
+    width: 95%;
+    margin-bottom: 1.5rem
+}
+
+.layout-list-container {
+    overflow: hidden;
+    background: #fff;
+    border-radius: .3rem
+}
+
+.title {
+    margin-bottom: .35rem;
+    line-height: 1.05;
+    color: #4e545f;
+    font-size: 17px;
+}
+
+.sub-container {
+    padding: .5rem
+}
+
+.list-thumbnail {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 10rem;
+    position: relative;
+    background-image: url('https://pib.uob.com.sg/assets/images/mobile/mighty/dining/quicksuggest/thumbnails/small-korean.jpg');
 }
