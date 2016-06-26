@@ -3,6 +3,11 @@
         "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/www/js/controllers.js",
         "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/cordova-plugin-statusbar/www/statusbar.js",
-        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/ionic-plugin-keyboard/www/android/keyboard.js"
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/plugins/ionic-plugin-keyboard/www/android/keyboard.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/cordova-js-src/exec.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/cordova-js-src/platform.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/cordova.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/cordova_plugins.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/js/app.js"
     ]
 }

@@ -71,7 +71,7 @@ h2 {
     background-size: cover;
     height: 10rem;
     position: relative;
-    background-image: url('https://lh3.googleusercontent.com/-fvQq42DHZiI/AAAAAAAAAAI/AAAAAAAAAAA/AOtt-yFHOPoezDGhWormGNFWhc1xf01TDQ/mo/photo.jpg?sz=120');
+    background-image: url('../img/demo.png');
 }
 
 .promotion-icon {
@@ -88,7 +88,7 @@ h2 {
     transform: rotateY(0deg);
     bottom: 16px;
     right: 16px;
-    background: url('5juIkCzkJFeXJL1gXhYRfK0aId1aNp9NwUIiCWrwgoN.png') no-repeat center;
+    background: url('../img/demo.png') no-repeat center;
     background-size: 30px 21px;
     background-color: #0072FF;
     z-index: 11;

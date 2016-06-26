@@ -2,7 +2,7 @@
     <ion-content>
         <ion-list>
             <ul class="wrap-container wrapflex">
-                <li class="layout-twoColumn layout-list-container">
+                <li ng-click="onClickTutorial()" class="layout-twoColumn layout-list-container">
                     <div class="list-thumbnail">
                         
                     </div>
@@ -45,16 +45,16 @@
                     <h2 class="title sub-container">test</h2>
                 </li>
             </ul>
-            <div class="overallIconsDisplay" style="display: block;">
-                <a href="/provider/promote"><div class="profileIcon iconCls"></div>
+            <div class="overallIconsDisplay" style="display: none" >
+                <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
                 <p class="txtIcon profileTxt">Share on facebook</p></a>
 
-                <a href="#" onclick="showRecentQuestions();"> <div class="questionsIcon iconCls"></div>
+                <a ng-click="onClickContact()"> <div class="questionsIcon iconCls"></div>
                 <p class="txtIcon questionsTxt">Contact Us</p></a>
 
                 <div class="whiteIconOverlay"></div>
             </div>
-            <div class="promotion-icon" style="background: url('../img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
+            <div ng-click="onClickPromote()" class="promotion-icon" style="background: url('../img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
         </ion-list>
     </ion-content>
 </ion-pane>
