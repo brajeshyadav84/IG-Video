@@ -163,4 +163,17 @@ h2 {
     z-index: 10;
 }
 
+.contact-title {
+    margin-bottom: .35rem;
+    line-height: 1.05;
+    color: #4e545f;
+    width: 100%;
+}
+
+.underline {
+    text-decoration: underline;
+    color: #1d67e4;
+}
+
+
 
