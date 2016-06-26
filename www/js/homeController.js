@@ -1,6 +1,6 @@
-IG.controller('homeController', function($scope, $state, $stateParams) {
+IG.controller('homeController', function($scope, $rootScope, $state, $stateParams) {
     console.log("home");
-    
+    $rootScope.title = "InterviewGully Home";
     
     $scope.reset = function () {
         $scope.isShow = {

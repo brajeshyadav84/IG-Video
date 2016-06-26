@@ -20,12 +20,13 @@
 
     <!-- your app's js -->
     <script src="js/app.js"></script>
+    <script src="js/indexController.js"></script>
     <script src="js/homeController.js"></script>
     <script src="js/detailsController.js"></script>
     <script src="js/contactController.js"></script>
     <script src="js/services.js"></script>
   </head>
-  <body>
+  <body ng-controller="indexController">
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
@@ -36,14 +37,9 @@
     <ion-header-bar class="bar bar-header">
                 <ion-nav-bar>
                     <ion-nav-buttons side="left">
-                        <!-- Toggle left side menu -->
-                        <a href="#/dashboard/partTimeList/pending" ng-show="hideHame" class="padding-left-10 padding-right-10 padding-top-5" ng-click="changeImage('folder')">Back</a>
-
-                        <button menu-toggle="left" class="button button-icon icon ion-navicon" ng-hide="hideHame"></button>
-
-                        <div>InterviewGully</div>
                         
-
+                        <div>{{title}}</div>
+                        
                     </ion-nav-buttons>
                 </ion-nav-bar>
     </ion-header-bar>

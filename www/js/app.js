@@ -7,7 +7,7 @@
 // 'starter.controllers' is found in controllers.js
 var IG = angular.module('starter', ['ionic'])
 
-IG.run(function($ionicPlatform) {
+IG.run(function($ionicPlatform, $rootScope) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
