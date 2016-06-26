@@ -45,7 +45,7 @@
                     <h2 class="title sub-container">test</h2>
                 </li>
             </ul>
-            <div class="overallIconsDisplay" style="display: none" >
+            <div class="overallIconsDisplay" ng-style="isShow" >
                 <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
                 <p class="txtIcon profileTxt">Share on facebook</p></a>
 
@@ -54,7 +54,8 @@
 
                 <div class="whiteIconOverlay"></div>
             </div>
-            <div ng-click="onClickPromote()" class="promotion-icon" style="background: url('../img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
+            <div ng-click="onClickPromote()" ng-show="!isClickPromote" class="promotion-icon" style="background: url('../img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
+            <div ng-click="onClickPromoteClose()" ng-show="isClickPromote" class="promotion-icon" style="background: url('../img/promoteClose.png') center center / 20px 15px no-repeat rgb(0, 114, 255);"></div>
         </ion-list>
     </ion-content>
 </ion-pane>

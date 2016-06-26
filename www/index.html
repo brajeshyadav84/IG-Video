@@ -33,6 +33,20 @@
       <ion-nav-back-button>
       </ion-nav-back-button>
     </ion-nav-bar>
+    <ion-header-bar class="bar bar-header">
+                <ion-nav-bar>
+                    <ion-nav-buttons side="left">
+                        <!-- Toggle left side menu -->
+                        <a href="#/dashboard/partTimeList/pending" ng-show="hideHame" class="padding-left-10 padding-right-10 padding-top-5" ng-click="changeImage('folder')">Back</a>
+
+                        <button menu-toggle="left" class="button button-icon icon ion-navicon" ng-hide="hideHame"></button>
+
+                        <div>InterviewGully</div>
+                        
+
+                    </ion-nav-buttons>
+                </ion-nav-bar>
+    </ion-header-bar>
     <!--
       The views will be rendered in the <ion-nav-view> directive below
       Templates are in the /templates folder (but you could also
