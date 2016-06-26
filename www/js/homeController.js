@@ -1,9 +1,13 @@
 IG.controller('homeController', function($scope, $state, $stateParams) {
     console.log("home");
-    $scope.isShow = {
-        "display" : "none"
-    }
-    $scope.isClickPromote = false;
+    
+    
+    $scope.reset = function () {
+        $scope.isShow = {
+            "display" : "none"
+        };
+        $scope.isClickPromote = false;
+    };
     
     $scope.onClickTutorial = function () {
         $state.go("details");
@@ -17,18 +21,18 @@ IG.controller('homeController', function($scope, $state, $stateParams) {
     };
     
     $scope.onClickPromoteClose = function () {
-        $scope.isShow = {
-            "display" : "none"
-        }
-        $scope.isClickPromote = false;
+        $scope.reset ();
     };
     
     $scope.onClickShare = function (){
-        
+        $scope.reset ();
     };
     
     $scope.onClickContact = function (){
+        $scope.reset ();
         $state.go("contact");
     };
+    
+    $scope.reset();
     
 });
