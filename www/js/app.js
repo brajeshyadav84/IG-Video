@@ -44,6 +44,12 @@ IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
     templateUrl: 'screens/details.html',
     controller: "detailsController"
    })
+  
+  .state('contact', {
+    url: '/contact',
+    templateUrl: 'screens/contactUs.html',
+    controller: "contactController"
+   })
 
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/home');

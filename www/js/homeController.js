@@ -15,7 +15,7 @@ IG.controller('homeController', function($scope, $state, $stateParams) {
     };
     
     $scope.onClickContact = function (){
-        
+        $state.go("contact");
     };
     
 });
