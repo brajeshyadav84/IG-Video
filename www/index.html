@@ -30,18 +30,11 @@
     <!--
       The nav bar that will be updated as we navigate between views.
     -->
-    <ion-nav-bar class="bar-stable">
-      <ion-nav-back-button>
-      </ion-nav-back-button>
-    </ion-nav-bar>
-    <ion-header-bar class="bar bar-header">
-                <ion-nav-bar>
-                    <ion-nav-buttons side="left">
-                        
-                        <div>{{title}}</div>
-                        
-                    </ion-nav-buttons>
-                </ion-nav-bar>
+    <ion-header-bar align-title="left" class="bar-positive">
+      <div class="buttons">
+        <div ng-click="onClickback()">Back</div>
+      </div>
+      <h1 class="title">{{title}}</h1>
     </ion-header-bar>
     <!--
       The views will be rendered in the <ion-nav-view> directive below

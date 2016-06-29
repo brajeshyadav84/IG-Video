@@ -22,6 +22,9 @@
         "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/lib/ionic/js/angular/angular-sanitize.js",
         "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/lib/ionic/js/angular/angular-sanitize.min.js",
         "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/android/platform_www/cordova-js-src/plugin/android/app.js",
-        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/www/js/indexController.js"
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/www/js/indexController.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/lib/ionic/js/angular/angular.min.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/platforms/ios/build/emulator/InterviewGully.app/www/lib/ionic/js/angular-ui/angular-ui-router.js",
+        "/Users/brajesh/Documents/Brajesh/VideoApp/InterviewGully/www/js/app.js"
     ]
 }
