@@ -1,23 +1,9 @@
 [
-    {
-        id: "1"
-        title: "IIS7",
-        shortDescription: "IIS7",
-        imageURL: "",
-        status: true
-    },
-    {
-        id: "2"
-        title: "AngularJS",
-        shortDescription: "AngularJS",
-        imageURL: "",
-        status: true
-    },
-    {
-        id: "3"
-        title: "ReactJS",
-        shortDescription: "ReactJS",
-        imageURL: "",
-        status: true
-    }
+   { 
+      "Id": "1",
+      "Name":"IIS7",
+      "Description":"IIS7",
+      "ImageUrl": "",
+      "Status":"true"
+   }
 ]
