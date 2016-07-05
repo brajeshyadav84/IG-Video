@@ -19,3 +19,10 @@ $ ionic run android
 
 //To run on Browser 
 $ ionic serve
+
+
+
+
+
+
+
