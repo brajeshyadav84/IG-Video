@@ -2,24 +2,13 @@
     <ion-content>
         <ion-list>
             <ul class="wrap-container wrapflex">
-                <li class="layout-oneColumn layout-list-container">
+                <li class="layout-oneColumn layout-list-container" ng-repeat="data in DetailData">
                     <div class="list-thumbnail">
                         
                     </div>
-                    <h2 class="title sub-container">test</h2>
+                    <h2 class="title sub-container">{{data.title}}</h2>
                 </li>
-                <li class="layout-oneColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-oneColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
+                
             </ul>
             
         </ion-list>

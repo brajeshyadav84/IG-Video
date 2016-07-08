@@ -8,7 +8,8 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     
     var url = "http://www.interviewgully.com/API/IG_Video/list.json";
     IGService.postAPI(request, url).then( function(response){
-        console.log("home response");console.log(response);
+        console.log("home response");
+        $scope.listData = response.data;console.log($scope.listData);
     },function(error){
         console.log(error);
     });
@@ -20,8 +21,8 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         $scope.isClickPromote = false;
     };
     
-    $scope.onClickTutorial = function () {
-        $state.go("details");
+    $scope.onClickTutorial = function (id) {
+        $state.go("details", {"ID": id});
     };
     
     $scope.onClickPromote = function (){

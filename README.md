@@ -24,5 +24,5 @@ $ ionic serve
 
 
 
-
+git push https://github.com/brajeshyadav84/IG-Video.git master
 

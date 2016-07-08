@@ -2,47 +2,11 @@
     <ion-content>
         <ion-list>
             <ul class="wrap-container wrapflex">
-                <li ng-click="onClickTutorial()" class="layout-twoColumn layout-list-container">
+                <li ng-click="onClickTutorial(data.Id)" class="layout-twoColumn layout-list-container" ng-repeat="data in listData">
                     <div class="list-thumbnail">
                         
                     </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-twoColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-twoColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-twoColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-twoColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-twoColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
-                </li>
-                <li class="layout-twoColumn layout-list-container">
-                    <div class="list-thumbnail">
-                        
-                    </div>
-                    <h2 class="title sub-container">test</h2>
+                    <h2 class="title sub-container">{{data.Name}}</h2>
                 </li>
             </ul>
             <div class="overallIconsDisplay" ng-style="isShow" >

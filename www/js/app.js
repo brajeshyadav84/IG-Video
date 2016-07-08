@@ -40,7 +40,7 @@ IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
    })
   
   .state('details', {
-    url: '/details',
+    url: '/details/:ID',
     templateUrl: 'screens/details.html',
     controller: "detailsController"
    })
