@@ -1,4 +1,4 @@
-IG.controller('detailsController', function($scope, $http, $rootScope, $state, $stateParams, IGService) {
+IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $state, $stateParams, IGService) {
     console.log("$stateParams");console.log($stateParams);
     var ID = $stateParams.ID;
     $rootScope.title = "InterviewGully Details";
@@ -14,6 +14,10 @@ IG.controller('detailsController', function($scope, $http, $rootScope, $state, $
     },function(error){
         console.log(error);
     });
+    
+    $scope.trustSrc = function(src) {
+		return $sce.trustAsResourceUrl(src);
+	}
     
 });
 
