@@ -5,14 +5,21 @@
                 <li class="layout-oneColumn layout-list-container" ng-repeat="data in DetailData">
                     <div class="list-thumbnail">
                         <div class="video-container">
+                            <object width="100%" height="150">
+                                <param name="movie" value="https://www.youtube.com/v/WzhW20hLp6M?version=3&amp;hl=uk_UA&amp;rel=0"></param>
+                                <param name="allowFullScreen" value="true"></param
+                                <param name="allowscriptaccess" value="always"></param>
+                                <embed src="https://www.youtube.com/v/WzhW20hLp6M?version=3&amp;hl=uk_UA&amp;rel=0" type="application/x-shockwave-flash" width="100%" height="150" allowscriptaccess="always" allowfullscreen="true"></embed>
+                            </object>
+<!--
                             <iframe width="100%" height="80%"
 							        ng-src="https://www.youtube.com/embed/eCfDxZxTBW4" allowfullscreen>
 							</iframe>
+-->
                         </div>
                     </div>
                     <h2 class="title sub-container">{{data.title}}</h2>
                 </li>
-                
             </ul>
             
         </ion-list>

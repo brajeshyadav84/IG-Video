@@ -23,9 +23,9 @@ IG.run(function($ionicPlatform, $rootScope) {
   });
 })
 
-IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $sceDelegateProvider) {
   $ionicConfigProvider.backButton.previousTitleText(true).text('Back');
-    
+  $sceDelegateProvider.resourceUrlWhitelist(['self', new RegExp('^(http[s]?):\/\/(w{3}.)?youtube\.com/.+$')]);  
   // Ionic uses AngularUI Router which uses the concept of states
   // Learn more here: https://github.com/angular-ui/ui-router
   // Set up the various states which the app can be in.
