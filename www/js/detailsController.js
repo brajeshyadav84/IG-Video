@@ -19,6 +19,10 @@ IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $st
 		return $sce.trustAsResourceUrl(src);
 	}
     
+    //$scope.video = 'zRtPUIumXcY';
+    
+    
+    
 });
 
 
