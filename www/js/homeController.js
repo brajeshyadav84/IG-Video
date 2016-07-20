@@ -22,8 +22,8 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         $scope.isClickPromote = false;
     };
     
-    $scope.onClickTutorial = function (id) {
-        $state.go("details", {"ID": id});
+    $scope.onClickTutorial = function (id,Name) {
+        $state.go("details", {"ID": id,"Name":Name});
     };
     
     $scope.onClickPromote = function (){
