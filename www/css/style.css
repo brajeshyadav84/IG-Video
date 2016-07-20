@@ -123,6 +123,7 @@ h2 {
     transform: rotateY(0deg);
     right: 21px;
     z-index: 11;
+    cursor: pointer;
 }
 
 .profileTxt {
@@ -147,6 +148,7 @@ h2 {
     font-size: 14px;
     background: #FFF;
     z-index: 11;
+    cursor: pointer;
 }
 
 
