@@ -2,6 +2,7 @@ IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $st
     console.log("$stateParams");console.log($stateParams);
     var ID = $stateParams.ID;
     $rootScope.title = "InterviewGully Details";
+    $rootScope.back = "backShow";
     
     var request = {
         

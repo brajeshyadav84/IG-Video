@@ -1,6 +1,7 @@
 IG.controller('homeController', function($scope, $http, $rootScope, $state, $stateParams, IGService) {
     console.log("home");
     $rootScope.title = "InterviewGully";
+    $rootScope.back = "backHide";
     
     var request = {
         

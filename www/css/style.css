@@ -174,5 +174,21 @@ h2 {
     color: #1d67e4;
 }
 
+.backNavigation {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.backShow {
+    display: block !important;
+    cursor: pointer;
+}
+
+.backHide {
+    display: none !important;
+}
+
+
 
 
