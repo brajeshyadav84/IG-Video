@@ -12,44 +12,14 @@ IG.run(function($ionicPlatform, $rootScope) {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
-      cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-      cordova.plugins.Keyboard.disableScroll(true);
+      //cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
+      //cordova.plugins.Keyboard.disableScroll(true);
 
     }
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
-      StatusBar.styleDefault();
+      //StatusBar.styleDefault();
     }
-      
-    if (window.cordova && window.cordova.plugins.Keyboard) {
-            cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
-        }
-        if (window.StatusBar) {
-            // org.apache.cordova.statusbar required
-            StatusBar.styleDefault();
-        }
- 
-        if(window.plugins && window.plugins.AdMob) {
-            var admob_key = device.platform == "Android" ? "ca-app-pub-9547390959473673/6210153946" : "ca-app-pub-9547390959473673/4251435942";
-            var admob = window.plugins.AdMob;
-            admob.createBannerView( 
-                {
-                    'publisherId': admob_key,
-                    'adSize': admob.AD_SIZE.BANNER,
-                    'bannerAtTop': false
-                }, 
-                function() {
-                    admob.requestAd(
-                        { 'isTesting': false }, 
-                        function() {
-                            admob.showAd(true);
-                        }, 
-                        function() { console.log('failed to request ad'); }
-                    );
-                }, 
-                function() { console.log('failed to create banner view'); }
-            );
-        }
       
   });
 })
