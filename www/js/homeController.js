@@ -39,7 +39,7 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     
     $scope.onClickShare = function (){
         $scope.reset ();
-        $cordovaSocialSharing.share('This is my message', 'Subject string', null, 'http://www.mylink.com');
+        $cordovaSocialSharing.share('Hi!, Its nice app for IT professional (FrontEnd Developer)', 'InterviewGully', null, 'http://www.interviewgully.com/app');
     };
     
     $scope.onClickContact = function (){
