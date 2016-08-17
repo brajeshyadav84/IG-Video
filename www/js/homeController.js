@@ -1,4 +1,4 @@
-IG.controller('homeController', function($scope, $http, $rootScope, $state, $stateParams, IGService) {
+IG.controller('homeController', function($scope, $http, $rootScope, $state, $stateParams, IGService, $cordovaSocialSharing) {
     console.log("home");
     $rootScope.title = "InterviewGully";
     $rootScope.back = "backHide";
@@ -39,6 +39,7 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     
     $scope.onClickShare = function (){
         $scope.reset ();
+        $cordovaSocialSharing.share('This is my message', 'Subject string', null, 'http://www.mylink.com');
     };
     
     $scope.onClickContact = function (){

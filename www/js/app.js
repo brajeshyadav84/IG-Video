@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-var IG = angular.module('starter', ['ionic'])
+var IG = angular.module('starter', ['ionic', 'ngCordova'])
 
 IG.run(function($ionicPlatform, $rootScope) {
   $ionicPlatform.ready(function() {
