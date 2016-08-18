@@ -1,6 +1,6 @@
 IG.controller('contactController', function($scope, $rootScope, $state, $stateParams) {
     console.log("contact");
-    $rootScope.title = "InterviewGully Contact";
+    $rootScope.title = "Keep in touch";
     $rootScope.back = "backShow";
     
 });
