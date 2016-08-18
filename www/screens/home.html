@@ -9,7 +9,10 @@
                     <h2 class="title sub-container">{{data.Name}}</h2>
                 </li>
             </ul>
-            <div class="overallIconsDisplay" ng-style="isShow" >
+            
+        </ion-list>
+    </ion-content>
+    <div class="overallIconsDisplay" ng-style="isShow" >
                 <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
                 <p class="txtIcon profileTxt">Share</p></a>
 
@@ -17,9 +20,7 @@
                 <p class="txtIcon questionsTxt">Keep in touch</p></a>
 
                 <div class="whiteIconOverlay"></div>
-            </div>
-            <div ng-click="onClickPromote()" ng-show="!isClickPromote" class="promotion-icon" style="background: url('img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
-            <div ng-click="onClickPromoteClose()" ng-show="isClickPromote" class="promotion-icon" style="background: url('img/promoteClose.png') center center / 20px 15px no-repeat rgb(0, 114, 255);"></div>
-        </ion-list>
-    </ion-content>
+    </div>
+    <div ng-click="onClickPromote()" ng-show="!isClickPromote" class="promotion-icon" style="background: url('img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
+    <div ng-click="onClickPromoteClose()" ng-show="isClickPromote" class="promotion-icon" style="background: url('img/promoteClose.png') center center / 20px 15px no-repeat rgb(0, 114, 255);"></div>
 </ion-pane>
