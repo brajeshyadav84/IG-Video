@@ -60,7 +60,7 @@ h2 {
 }
 
 .sub-container {
-    padding: .5rem
+    padding: .5rem .5rem 0rem .5rem;
 }
 
 .list-thumbnail {
@@ -166,13 +166,13 @@ h2 {
 
 .contact-title {
     margin-bottom: .35rem;
-    line-height: 1.05;
+    /*line-height: 1.05;*/
     color: #4e545f;
     width: 100%;
 }
 
 .underline {
-    text-decoration: underline;
+    text-decoration: none;
     color: #1d67e4;
 }
 
