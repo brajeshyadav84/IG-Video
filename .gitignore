@@ -2,5 +2,7 @@
 # http://git-scm.com/docs/gitignore
 
 node_modules/
-platforms/
+platforms/android/assets
+platforms/ios/www
+platforms/ios/plateform_www
 plugins/

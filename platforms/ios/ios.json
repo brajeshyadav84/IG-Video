@@ -1,0 +1,128 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"AdMob\"><param name=\"ios-package\" value=\"CDVAdMob\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"ios-package\" value=\"CDVDevice\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SplashScreen\"><param name=\"ios-package\" value=\"CDVSplashScreen\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"Sms\"><param name=\"ios-package\" value=\"Sms\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"SocialSharing\"><param name=\"ios-package\" value=\"SocialSharing\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-admob": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-admobsdk": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "com.cordova.plugins.sms": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "id": "cordova-plugin-admob.AdMob",
+            "file": "plugins/cordova-plugin-admob/www/AdMob.js",
+            "pluginId": "cordova-plugin-admob",
+            "clobbers": [
+                "window.plugins.AdMob"
+            ]
+        },
+        {
+            "id": "cordova-plugin-inappbrowser.inappbrowser",
+            "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+            "pluginId": "cordova-plugin-inappbrowser",
+            "clobbers": [
+                "cordova.InAppBrowser.open",
+                "window.open"
+            ]
+        },
+        {
+            "id": "cordova-plugin-device.device",
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "id": "cordova-plugin-splashscreen.SplashScreen",
+            "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+            "pluginId": "cordova-plugin-splashscreen",
+            "clobbers": [
+                "navigator.splashscreen"
+            ]
+        },
+        {
+            "id": "com.cordova.plugins.sms.Sms",
+            "file": "plugins/com.cordova.plugins.sms/www/sms.js",
+            "pluginId": "com.cordova.plugins.sms",
+            "clobbers": [
+                "window.sms"
+            ]
+        },
+        {
+            "id": "cordova-plugin-x-socialsharing.SocialSharing",
+            "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+            "pluginId": "cordova-plugin-x-socialsharing",
+            "clobbers": [
+                "window.plugins.socialsharing"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-admob": "3.2.1",
+        "cordova-admobsdk": "3.2.3",
+        "cordova-plugin-whitelist": "1.2.3-dev",
+        "cordova-plugin-inappbrowser": "1.4.1-dev",
+        "cordova-plugin-device": "1.1.2",
+        "cordova-plugin-splashscreen": "3.2.2",
+        "com.cordova.plugins.sms": "0.1.10",
+        "cordova-plugin-x-socialsharing": "5.1.2"
+    }
+}
