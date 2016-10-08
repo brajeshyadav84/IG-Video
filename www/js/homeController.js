@@ -1,4 +1,4 @@
-IG.controller('homeController', function($scope, $http, $rootScope, $state, $stateParams, IGService, $cordovaSocialSharing) {
+IG.controller('homeController', function($scope, $http, $rootScope, $state, $stateParams, IGService, $cordovaSocialSharing, $ionicPopup) {
     console.log("home");
     $rootScope.title = "InterviewGully";
     $rootScope.back = "backHide";
@@ -28,18 +28,37 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         if(!!isAndroid){
             var id = data.androidSettings.versions[0];
             if(id != "2.0"){
-                alert('Loading android upgrade screen');
+                console.log('Loading android upgrade screen');
+                $scope.showConfirm(data.androidSettings.itunesurl);
             }
         } else {
             var id = data.iosSettings.versions[0];
             if(id != "2.0"){
                 console.log('Loading ios upgrade screen');
+                $scope.showConfirm(data.iosSettings.itunesurl);
             }
         }
         
     },function(error){
         console.log(error);
     });
+
+
+    $scope.showConfirm = function(storeURL) {
+           var confirmPopup = $ionicPopup.confirm({
+             title: 'App Upgrade',
+             template: 'Are you want to upgrade app to avail new features?'
+           });
+
+           confirmPopup.then(function(res) {
+             if(res) {
+               window.open(storeURL, "_system");
+             } else {
+               console.log('You are not sure');
+             }
+           });
+     };
+
     // end force upgrade Implememntation
     
     $scope.reset = function () {
