@@ -1,0 +1,65 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IG App</title>
+</head>
+<body >
+
+<script>
+
+    (function () {
+        var app = {
+
+            launchApp: function () {
+
+                var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+                var isIOS = (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i));
+                var isAndroid = (userAgent.match(/Android/i));
+                var isDesktop = !(isIOS || isAndroid);
+
+                var timeout1 = 5000;
+                var timeout2 = 250;
+
+                if (isIOS) {
+
+                    var timeout1 = 100;
+
+                    setTimeout(function () {
+
+                        if (!document.webkitHidden) {
+                            window.location = "http://www.google.com"; // store url
+                        }
+
+                    }, timeout1);
+
+                    window.open("interviewgully://", "_self");
+
+
+                } else if (isAndroid) {
+
+                    setTimeout(function () {
+                        var URL = "www.google.com"; // store url
+                        window.open(URL,"_system");
+                    }, timeout1);
+
+                    setTimeout(function () {
+                        window.open("http://interviewgully://", "_top");
+                    }, timeout2);
+
+                }
+
+            }
+
+        };
+
+        app.launchApp();
+    })();
+
+
+</script>
+</body>
+</html>

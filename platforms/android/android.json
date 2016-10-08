@@ -40,6 +40,16 @@
                             "xml": "<uses-feature android:name=\"android.hardware.telephony\" android:required=\"false\" />",
                             "count": 1
                         }
+                    ],
+                    "/manifest/application/activity": [
+                        {
+                            "xml": "<intent-filter><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /><data android:scheme=\"interviewgully\" /></intent-filter>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<intent-filter><action android:name=\"android.intent.action.VIEW\" /><category android:name=\"android.intent.category.DEFAULT\" /><category android:name=\"android.intent.category.BROWSABLE\" /><data android:host=\" \" android:pathPrefix=\"/\" android:scheme=\" \" /></intent-filter>",
+                            "count": 1
+                        }
                     ]
                 }
             },
@@ -73,6 +83,10 @@
                         {
                             "xml": "<feature name=\"SocialSharing\"><param name=\"android-package\" value=\"nl.xservices.plugins.SocialSharing\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"LaunchMyApp\"><param name=\"android-package\" value=\"nl.xservices.plugins.LaunchMyApp\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -102,6 +116,13 @@
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         },
         "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-customurlscheme": {
+            "URL_SCHEME": "interviewgully",
+            "ANDROID_SCHEME": " ",
+            "ANDROID_HOST": " ",
+            "ANDROID_PATHPREFIX": "/",
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         }
     },
@@ -155,6 +176,14 @@
             "clobbers": [
                 "window.plugins.socialsharing"
             ]
+        },
+        {
+            "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+            "file": "plugins/cordova-plugin-customurlscheme/www/android/LaunchMyApp.js",
+            "pluginId": "cordova-plugin-customurlscheme",
+            "clobbers": [
+                "window.plugins.launchmyapp"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -165,6 +194,7 @@
         "cordova-plugin-device": "1.1.2",
         "cordova-plugin-splashscreen": "3.2.2",
         "com.cordova.plugins.sms": "0.1.10",
-        "cordova-plugin-x-socialsharing": "5.1.2"
+        "cordova-plugin-x-socialsharing": "5.1.2",
+        "cordova-plugin-customurlscheme": "4.2.0"
     }
 }

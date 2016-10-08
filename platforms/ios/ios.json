@@ -34,6 +34,16 @@
                         }
                     ]
                 }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>interviewgully</string></array></dict></array>",
+                            "count": 1
+                        }
+                    ]
+                }
             }
         }
     },
@@ -60,6 +70,10 @@
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         },
         "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-customurlscheme": {
+            "URL_SCHEME": "interviewgully",
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         }
     },
@@ -113,6 +127,14 @@
             "clobbers": [
                 "window.plugins.socialsharing"
             ]
+        },
+        {
+            "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+            "file": "plugins/cordova-plugin-customurlscheme/www/ios/LaunchMyApp.js",
+            "pluginId": "cordova-plugin-customurlscheme",
+            "clobbers": [
+                "window.plugins.launchmyapp"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -123,6 +145,7 @@
         "cordova-plugin-device": "1.1.2",
         "cordova-plugin-splashscreen": "3.2.2",
         "com.cordova.plugins.sms": "0.1.10",
-        "cordova-plugin-x-socialsharing": "5.1.2"
+        "cordova-plugin-x-socialsharing": "5.1.2",
+        "cordova-plugin-customurlscheme": "4.2.0"
     }
 }
