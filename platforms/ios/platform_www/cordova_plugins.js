@@ -56,20 +56,36 @@ module.exports = [
         "clobbers": [
             "window.plugins.launchmyapp"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-x-socialsharing/www/SocialSharing.js",
+        "id": "cordova-plugin-x-socialsharing.SocialSharing",
+        "pluginId": "cordova-plugin-x-socialsharing",
+        "clobbers": [
+            "window.plugins.socialsharing"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-customurlscheme/www/ios/LaunchMyApp.js",
+        "id": "cordova-plugin-customurlscheme.LaunchMyApp",
+        "pluginId": "cordova-plugin-customurlscheme",
+        "clobbers": [
+            "window.plugins.launchmyapp"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
     "cordova-plugin-admob": "3.2.1",
-    "cordova-admobsdk": "3.2.3",
+    "cordova-admobsdk": "1.0.4",
     "cordova-plugin-whitelist": "1.2.3-dev",
     "cordova-plugin-inappbrowser": "1.4.1-dev",
     "cordova-plugin-device": "1.1.2",
     "cordova-plugin-splashscreen": "3.2.2",
     "com.cordova.plugins.sms": "0.1.10",
-    "cordova-plugin-x-socialsharing": "5.1.2",
+    "cordova-plugin-x-socialsharing": "5.1.3",
     "cordova-plugin-customurlscheme": "4.2.0"
-};
+}
 // BOTTOM OF METADATA
 });
