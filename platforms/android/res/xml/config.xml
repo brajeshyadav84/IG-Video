@@ -68,4 +68,7 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="KeepRunning" value="false" />
     <preference name="CustomURLSchemePluginClearsAndroidIntent" value="true" />
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
 </widget>

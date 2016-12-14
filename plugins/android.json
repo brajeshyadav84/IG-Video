@@ -34,6 +34,9 @@
             "ANDROID_HOST": " ",
             "ANDROID_PATHPREFIX": "/",
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         }
     },
     "dependent_plugins": {

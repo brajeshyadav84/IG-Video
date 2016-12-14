@@ -31,6 +31,9 @@
         "cordova-plugin-customurlscheme": {
             "URL_SCHEME": "interviewgully",
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         }
     },
     "dependent_plugins": {

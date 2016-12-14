@@ -77,5 +77,13 @@
         "variables": {
             "URL_SCHEME": "interviewgully"
         }
+    },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

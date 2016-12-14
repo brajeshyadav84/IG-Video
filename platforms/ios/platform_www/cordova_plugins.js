@@ -72,6 +72,23 @@ module.exports = [
         "clobbers": [
             "window.plugins.launchmyapp"
         ]
+    },
+    {
+        "id": "cordova-plugin-network-information.network",
+        "file": "plugins/cordova-plugin-network-information/www/network.js",
+        "pluginId": "cordova-plugin-network-information",
+        "clobbers": [
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "id": "cordova-plugin-network-information.Connection",
+        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+        "pluginId": "cordova-plugin-network-information",
+        "clobbers": [
+            "Connection"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -85,7 +102,8 @@ module.exports.metadata =
     "cordova-plugin-splashscreen": "3.2.2",
     "com.cordova.plugins.sms": "0.1.10",
     "cordova-plugin-x-socialsharing": "5.1.3",
-    "cordova-plugin-customurlscheme": "4.2.0"
-}
+    "cordova-plugin-customurlscheme": "4.2.0",
+    "cordova-plugin-network-information": "1.3.1"
+};
 // BOTTOM OF METADATA
 });
