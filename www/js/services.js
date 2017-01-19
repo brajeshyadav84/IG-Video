@@ -17,3 +17,11 @@ IG.service('IGService',function($http, $q, $ionicLoading, $timeout) {
         }
     }
 });
+
+IG.filter('thumbNameDisplay', function(){
+    return function (input){
+        console.log(input);
+        var result = input.charAt(0).toUpperCase();
+        return result;
+    }
+})

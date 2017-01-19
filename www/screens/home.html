@@ -3,8 +3,8 @@
         <ion-list>
             <ul class="wrap-container wrapflex">
                 <li ng-click="onClickTutorial(data.Id,data.Name)" class="layout-twoColumn layout-list-container" ng-repeat="data in listData">
-                    <div class="list-thumbnail" style="background: url('{{data.ImageUrl}}') no-repeat;background-position: center;">
-                        
+                    <div class="list-thumbnail">
+                        {{data.Name | thumbNameDisplay}}
                     </div>
                     <h2 class="title sub-container borderSolid">{{data.Name}}</h2>
                 </li>
