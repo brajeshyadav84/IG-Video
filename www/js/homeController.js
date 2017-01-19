@@ -27,13 +27,13 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         var data = response.data;
         if(!!isAndroid){
             var id = data.androidSettings.versions[0];
-            if(id != "2.0"){
+            if(id.indexOf("2.0") < 0){
                 console.log('Loading android upgrade screen');
                 $scope.showConfirm(data.androidSettings.itunesurl);
             }
         } else {
             var id = data.iosSettings.versions[0];
-            if(id != "2.0"){
+            if(id.indexOf("2.0") < 0){
                 console.log('Loading ios upgrade screen');
                 $scope.showConfirm(data.iosSettings.itunesurl);
             }
