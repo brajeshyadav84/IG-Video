@@ -45,6 +45,12 @@ IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $sc
     templateUrl: 'screens/details.html',
     controller: "detailsController"
    })
+
+  .state('play', {
+    url: '/play/:ID/:Name',
+    templateUrl: 'screens/play.html',
+    controller: "playController"
+   })
   
   .state('contact', {
     url: '/contact',

@@ -21,7 +21,9 @@ IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $st
 	}
     
     //$scope.video = 'zRtPUIumXcY';
-    
+    $scope.handleVideo = function(id, Name) {
+        $state.go("play", {"ID": id,"Name":Name});
+    }
     
     
 });
