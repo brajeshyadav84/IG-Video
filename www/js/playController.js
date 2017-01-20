@@ -7,15 +7,15 @@ IG.controller('playController', function($sce, $scope, $rootScope, $state, $stat
     
     $scope.videoID = ID;
     
-    $scope.btnSendQuery= function() {
+    $scope.btnSendQuery= function(IGData) {
         if(window.plugins && window.plugins.emailComposer) {
             window.plugins.emailComposer.showEmailComposerWithCallback(function(result) {
                 console.log("Response -> " + result);
             }, 
-            "Question from IG App", // Subject
+            "Regarding: Queries", // Subject
             $scope.Question,                      // Body
             ["brajesh.mymailbox@gmail.com"],    // To
-            $scope.EmailID,                    // CC
+            null,                    // CC
             null,                    // BCC
             false,                   // isHTML
             null,                    // Attachments
@@ -23,9 +23,9 @@ IG.controller('playController', function($sce, $scope, $rootScope, $state, $stat
         }
     }
 
-    $scope.btnCancel= function() {
-    	$scope.EmailID = "";
-    	$scope.Question = "";
+    $scope.btnCancel= function(IGData) {
+    	IGData.EmailID = "";
+    	IGData.Question = "";
     }
 
 });

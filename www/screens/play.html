@@ -13,9 +13,9 @@
         </ion-list>
         <div class="outerPlayLayout">
             <div class="padding10" style="color: #565252;">Raise your Queries to get better solution</div>
-            <div class="padding10"><input style="padding-left: 10px;padding-right: 10px;" type="email" name="" placeholder="Enter EmailID" ng-model="EmailID"></div>
-            <div class="padding10"><textarea style="padding: 10px;" rows="10" cols="50" name="" ng-model="Question" placeholder="Enter Question"></textarea></div>
-            <div class="outerButton"><div class="padding10 btnSend" ng-click="btnCancel()">Reset</div><div class="padding10 btnSend" ng-click="btnSendQuery()">Send</div></div>
+            <div class="padding10"><input style="padding-left: 10px;padding-right: 10px;" type="email" name="" placeholder="Enter EmailID" ng-model="IGData.EmailID"></div>
+            <div class="padding10"><textarea style="padding: 10px;" rows="10" cols="50" name="" ng-model="IGData.Question" placeholder="Enter Question"></textarea></div>
+            <div class="outerButton"><div class="padding10 btnSend" ng-click="btnCancel(IGData)">Reset</div><div class="padding10 btnSend" ng-click="btnSendQuery(IGData)">Send</div></div>
         </div>
     </ion-content>
 </ion-pane>
