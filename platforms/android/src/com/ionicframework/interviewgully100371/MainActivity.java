@@ -21,11 +21,6 @@ package com.ionicframework.interviewgully100371;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
-import org.apache.cordova.engine.SystemWebView;
-import org.apache.cordova.engine.SystemWebViewEngine;
-import org.apache.cordova.CordovaWebViewEngine;
-import android.content.Context;
-import 	android.os.Build;
 
 public class MainActivity extends CordovaActivity
 {
@@ -36,37 +31,4 @@ public class MainActivity extends CordovaActivity
         // Set by <content src="index.html" /> in config.xml
         loadUrl(launchUrl);
     }
-
-    @Override
-    protected CordovaWebViewEngine makeWebViewEngine() {
-        return new WebViewEngine(this, preferences);
-    }
-
-    /**
-     * Custom Engine implementation so it can pass resume and pause events to WebView.
-     * This is necessary to stop HTML5 video when app is put to background.
-     */
-    static class WebViewEngine extends SystemWebViewEngine {
-
-        public WebViewEngine(Context context, CordovaPreferences preferences) {
-            super(context, preferences);
-        }
-
-        public WebViewEngine(SystemWebView webView) {
-            super(webView);
-        }
-
-        @Override
-        public void setPaused(boolean value) {
-            super.setPaused(value);
-            if (Build.VERSION.SDK_INT < Build.VERSION_CODES.HONEYCOMB) {
-                return;
-            } else if (value) {
-                webView.onPause();
-            } else {
-                webView.onResume();
-            }
-        }
-    }
-
 }
