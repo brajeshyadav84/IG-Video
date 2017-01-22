@@ -12,9 +12,9 @@ IG.controller('playController', function($sce, $scope, $rootScope, $state, $stat
             window.plugins.emailComposer.showEmailComposerWithCallback(function(result) {
                 console.log("Response -> " + result);
             }, 
-            "Regarding: Queries", // Subject
+            "Regarding: Technical Support", // Subject
             $scope.Question,                      // Body
-            ["brajesh.mymailbox@gmail.com"],    // To
+            ["brajesh.mymailbox@gmail.com","techsupport@interviewgully.com"],    // To
             null,                    // CC
             null,                    // BCC
             false,                   // isHTML
