@@ -5,10 +5,10 @@
                 <li class="layout-oneColumn layout-list-container" ng-repeat="data in DetailData">
                     <div class="list-thumbnail" ng-click="handleVideo(data.videoID, data.title)">
                         <div class="video-container">
-                            <!-- <angular-youtube video="data.videoID"></angular-youtube> -->
+                            {{data.title}}
                         </div>
                     </div>
-                    <h2 class="title sub-container">{{data.title}}</h2>
+                    <h2 class="title sub-container"></h2>
                 </li>
             </ul>
             

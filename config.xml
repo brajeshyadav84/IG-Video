@@ -4,7 +4,7 @@
     <description>
         An Ionic Framework and Cordova project.
     </description>
-    <author email="bkydolly@gmail.com" href="http://InterviewGully.com/">
+    <author email="bkydolly@gmail.com" href="http://www.InterviewGully.com/">
       Brajesh Kumar Yadav
     </author>
     <content src="index.html" />
@@ -81,4 +81,12 @@
         <splash height="480" src="resources/ios/splash/Default~iphone.png" width="320" />
     </platform>
     <plugin name="cordova-plugin-admob" spec="https://github.com/floatinghotpot/cordova-plugin-admob.git" />
+    <access origin="*" />
+    <access origin="cdvfile://*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
 </widget>
