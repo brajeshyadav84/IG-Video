@@ -87,6 +87,10 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         $scope.reset ();
         $cordovaSocialSharing.share('Hi!, This is nice app for Software Developers. Learn, Share & Suggest.', 'InterviewGully', null, 'http://www.interviewgully.com/API/appLauncher.html');
     };
+
+    $scope.onClickForum = function (){
+        window.open('http://www.interviewgully.com/forum', '_blank');
+    };
     
     $scope.onClickContact = function (){
         $scope.reset ();

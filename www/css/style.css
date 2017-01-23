@@ -98,10 +98,16 @@ h2 {
 }
 
 .profileIcon {
-    bottom: 150px;
+    bottom: 210px;
     background: url('../img/share.png') no-repeat center;
     background-size: 16px 21px;
     background-color: #4DD0E1;
+}
+
+.discussionIcon {
+    bottom: 150px;
+    background: url('../img/discussion.png') no-repeat center;
+    
 }
 
 
@@ -133,7 +139,11 @@ h2 {
 }
 
 .profileTxt {
-    bottom: 140px;
+    bottom: 205px;
+}
+
+.discussionTxt {
+    bottom: 145px;
 }
 
 .questionsTxt {

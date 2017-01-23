@@ -14,4 +14,18 @@
             
         </ion-list>
     </ion-content>
+    <div class="overallIconsDisplay" ng-style="isShow" >
+                <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
+                <p class="txtIcon profileTxt">Share with Friends</p></a>
+
+                <a ng-click="onClickForum()"><div class="discussionIcon iconCls"></div>
+                <p class="txtIcon discussionTxt">Discussion Forum</p></a>
+
+                <a ng-click="onClickContact()"> <div class="questionsIcon iconCls"></div>
+                <p class="txtIcon questionsTxt">Contact Us</p></a>
+
+                <div class="whiteIconOverlay"></div>
+    </div>
+    <div ng-click="onClickPromote()" ng-show="!isClickPromote" class="promotion-icon" style="background: url('img/promotionIcon.png') center center / 30px 21px no-repeat rgb(0, 114, 255);"></div>
+    <div ng-click="onClickPromoteClose()" ng-show="isClickPromote" class="promotion-icon" style="background: url('img/promoteClose.png') center center / 20px 15px no-repeat rgb(0, 114, 255);"></div>
 </ion-pane>
