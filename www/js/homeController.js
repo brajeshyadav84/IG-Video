@@ -89,7 +89,7 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     };
 
     $scope.onClickForum = function (){
-        window.open('http://www.interviewgully.com/forum', '_blank');
+        window.open('http://www.interviewgully.com/forum', '_system');
     };
     
     $scope.onClickContact = function (){
