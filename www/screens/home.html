@@ -2,7 +2,7 @@
     <ion-content>
         <ion-list>
             <ul class="wrap-container wrapflex">
-                <li ng-click="onClickTutorial(data.Id,data.Name)" class="layout-twoColumn layout-list-container" ng-repeat="data in listData">
+                <li ng-click="onClickTutorial(data.Id,data.Name)" ng-class="{showSection: data.Status == 'true'}" class="layout-twoColumn layout-list-container hideSection" ng-repeat="data in listData">
                     <div class="list-thumbnail">
                         {{data.Name | thumbNameDisplay}}
                     </div>

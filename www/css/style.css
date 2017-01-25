@@ -260,5 +260,13 @@ a {
     justify-content: space-between;
 }
 
+.showSection {
+    display: block !important;
+}
+
+.hideSection {
+    display: none;
+}
+
 
 
