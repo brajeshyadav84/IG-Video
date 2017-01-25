@@ -89,6 +89,7 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     };
 
     $scope.onClickForum = function (){
+        $scope.reset ();
         window.open('http://www.interviewgully.com/forum', '_system');
     };
     
