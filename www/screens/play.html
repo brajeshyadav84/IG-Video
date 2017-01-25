@@ -1,7 +1,7 @@
 <ion-pane ng-controller="playController">
     <ion-content>
         <ion-list>
-            <ul class="wrap-container wrapflex" style="height: 180px">
+            <ul class="wrap-container wrapflex" style="height: 180px;padding-top: 301px;">
                 <li class="layout-oneColumn layout-list-container">
                     <div>
                         <div class="video-container">
@@ -11,7 +11,7 @@
                 </li>
             </ul>
         </ion-list>
-        <div class="outerPlayLayout">
+        <div class="outerPlayLayout hideSection" ng-class="{showSection: isShowEmail == 'true'}">
             <div class="padding10" style="color: #565252;">Raise your Queries to get better solution</div>
             <!-- <div class="padding10"><input style="padding-left: 10px;padding-right: 10px;" type="email" name="" placeholder="Enter EmailID" ng-model="IGData.EmailID"></div> -->
             <div class="padding10"><textarea style="padding: 10px;" rows="10" cols="50" name="" ng-model="IGData.Question" placeholder="Enter Question"></textarea></div>

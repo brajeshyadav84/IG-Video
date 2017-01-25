@@ -68,7 +68,8 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         $scope.isClickPromote = false;
     };
     
-    $scope.onClickTutorial = function (id,Name) {
+    $scope.onClickTutorial = function (id,Name,isEmailAvailable) {
+        $rootScope.isEmailAvailable = isEmailAvailable;
         $state.go("details", {"ID": id,"Name":Name});
     };
     

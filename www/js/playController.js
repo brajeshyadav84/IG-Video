@@ -6,7 +6,7 @@ IG.controller('playController', function($sce, $scope, $rootScope, $state, $stat
     
     
     $scope.videoID = ID;
-    
+    $scope.isShowEmail = $rootScope.isEmailAvailable;
     $scope.btnSendQuery= function(IGData) {
         if (!!IGData.Question) {
             if(window.plugins && window.plugins.emailComposer) {
