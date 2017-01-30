@@ -1,4 +1,4 @@
-IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $state, $stateParams, IGService) {
+IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $state, $stateParams, IGService, $cordovaSocialSharing) {
     console.log("$stateParams");console.log($stateParams);
     var ID = $stateParams.ID;
     $rootScope.title = $stateParams.Name;
