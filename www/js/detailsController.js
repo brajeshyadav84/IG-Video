@@ -3,6 +3,7 @@ IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $st
     var ID = $stateParams.ID;
     $rootScope.title = $stateParams.Name;
     $rootScope.back = "backShow";
+    $scope.imageURL = "http://www.interviewgully.com/API/IG_Video/images/"+ID+".png";
     
     var request = {
         

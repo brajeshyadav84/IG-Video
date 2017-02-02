@@ -78,7 +78,7 @@ h2 {
     background-color: grey;
     text-align: center;
     font-size: 5rem;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
     color: whitesmoke;
 }
 
@@ -275,7 +275,7 @@ a {
 .two-column {
     display: flex;
     justify-content: space-between;
-    height: 7rem;
+    height: 6rem;
     position: relative;
     font-size: 5rem;
 }
@@ -287,6 +287,14 @@ a {
 
 .left-content {
     width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img-100 {
+    width: 100%;
+    height: 100%;
 }
 
 
