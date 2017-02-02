@@ -4,12 +4,12 @@
             <ul class="wrap-container wrapflex">
                 <li class="layout-oneColumn layout-list-container" ng-repeat="data in DetailData">
                     <div class="two-column" ng-click="handleVideo(data.videoID, data.title)">
-                        <div class="video-container rigth-content">
+                        <div class="video-container rigth-content" style="padding: 0px;">
                             <img class="img-100" src="{{imageURL}}" alt=""/>
                         </div>
                         <div class="video-container left-content">
                             <div style="height: 70%;border-bottom: 1px solid gray;">{{data.title}}</div>
-                            <div style="height: 20%" ng-click="onClickShare()"><i class="ion-android-share-alt"></i></div>
+                            <div style="height: 20%;text-align: right;padding-right: 10px;" ng-click="onClickShare()"><i class="ion-android-share-alt"></i></div>
                         </div>
                     </div>
                     <!-- <h2 class="title sub-container borderSolid"></h2> -->
