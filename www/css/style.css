@@ -75,7 +75,7 @@ h2 {
 .list-thumbnail {
     height: 7rem;
     position: relative;
-    background-color: grey;
+    /*background-color: grey;*/
     text-align: center;
     font-size: 5rem;
     /*padding-top: 40px;*/
@@ -282,7 +282,7 @@ a {
 
 .rigth-content{
     width: 30%;
-    background-color: grey;
+    /*background-color: grey;*/
 }
 
 .left-content {
