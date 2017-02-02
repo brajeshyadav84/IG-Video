@@ -3,12 +3,15 @@
         <ion-list>
             <ul class="wrap-container wrapflex">
                 <li class="layout-oneColumn layout-list-container" ng-repeat="data in DetailData">
-                    <div class="list-thumbnail" ng-click="handleVideo(data.videoID, data.title)">
-                        <div class="video-container">
+                    <div class="two-column" ng-click="handleVideo(data.videoID, data.title)">
+                        <div class="video-container rigth-content">
+                            image
+                        </div>
+                        <div class="video-container left-content">
                             {{data.title}}
                         </div>
                     </div>
-                    <h2 class="title sub-container borderSolid"></h2>
+                    <!-- <h2 class="title sub-container borderSolid"></h2> -->
                 </li>
             </ul>
             
