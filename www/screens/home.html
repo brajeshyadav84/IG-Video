@@ -7,18 +7,18 @@
                         <!-- {{data.Name | thumbNameDisplay}} -->
                         <img class="img-100" src="{{data.ImageUrl}}" alt=""/>
                     </div>
-                    <div class="title sub-container ng-binding">
+                    <!-- <div class="title sub-container ng-binding">
                       <div style="width:65%"></div>
                       <div style="width:35%;color: blue;" ng-click="onClickShare()"><i class="ion-android-share-alt" style="padding-right: 5px;"></i>Share</div>
-                    </div>
+                    </div> -->
                 </li>
             </ul>
             
         </ion-list>
     </ion-content>
     <div class="overallIconsDisplay" ng-style="isShow">
-                <!-- <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
-                <p class="txtIcon profileTxt">Share with Friends</p></a> -->
+                <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
+                <p class="txtIcon profileTxt">Share with Friends</p></a>
                 
                 <a ng-click="onClickForum()"><div class="discussionIcon iconCls"></div>
                 <p class="txtIcon discussionTxt">Discussion Forum</p></a>
