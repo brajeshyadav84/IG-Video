@@ -10,9 +10,6 @@
         "com.cordova.plugins.sms": {
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         },
-        "com.jcjee.plugins.emailcomposer": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
-        },
         "cordova-plugin-admob": {
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         },
@@ -27,6 +24,9 @@
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         },
         "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+        },
+        "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
         },
         "cordova-plugin-splashscreen": {

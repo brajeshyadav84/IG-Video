@@ -9,14 +9,6 @@ module.exports = [
         ]
     },
     {
-        "id": "com.jcjee.plugins.emailcomposer.EmailComposer",
-        "file": "plugins/com.jcjee.plugins.emailcomposer/www/EmailComposer.js",
-        "pluginId": "com.jcjee.plugins.emailcomposer",
-        "clobbers": [
-            "EmailComposer"
-        ]
-    },
-    {
         "id": "cordova-plugin-admob.AdMob",
         "file": "plugins/cordova-plugin-admob/www/AdMob.js",
         "pluginId": "cordova-plugin-admob",
@@ -50,6 +42,23 @@ module.exports = [
         ]
     },
     {
+        "id": "cordova-plugin-network-information.network",
+        "file": "plugins/cordova-plugin-network-information/www/network.js",
+        "pluginId": "cordova-plugin-network-information",
+        "clobbers": [
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "id": "cordova-plugin-network-information.Connection",
+        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+        "pluginId": "cordova-plugin-network-information",
+        "clobbers": [
+            "Connection"
+        ]
+    },
+    {
         "id": "cordova-plugin-splashscreen.SplashScreen",
         "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
         "pluginId": "cordova-plugin-splashscreen",
@@ -70,12 +79,12 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "com.cordova.plugins.sms": "0.1.10",
-    "com.jcjee.plugins.emailcomposer": "1.4.6",
     "cordova-admobsdk": "3.2.3",
     "cordova-plugin-admob": "3.2.1",
     "cordova-plugin-customurlscheme": "4.2.0",
     "cordova-plugin-device": "1.1.2",
     "cordova-plugin-inappbrowser": "1.4.1-dev",
+    "cordova-plugin-network-information": "1.3.1",
     "cordova-plugin-splashscreen": "3.2.2",
     "cordova-plugin-whitelist": "1.2.3-dev",
     "cordova-plugin-x-socialsharing": "5.1.2"
