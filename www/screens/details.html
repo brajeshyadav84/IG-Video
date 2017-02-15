@@ -8,8 +8,8 @@
                             <img class="img-100" src="{{imageURL}}" alt=""/>
                         </div>
                         <div class="video-container left-content">
-                            <div style="height: 70%;border-bottom: 1px solid gray;">{{ $index + 1 }} - {{data.title}}</div>
-                            <div style="height: 20%;text-align: right;padding-right: 10px;color: blue;" ng-click="onClickShare();$event.stopPropagation()">
+                            <div style="height: 70%;">{{ $index + 1 }} - {{data.title}}</div>
+                            <div style="height: 20%;text-align: right;padding-right: 10px;color: blue;margin-left: 60%;" ng-click="onClickShare(data.videoURL);$event.stopPropagation()">
                             <i class="ion-android-share-alt" style="padding-right: 5px;"></i>Share</div>
                         </div>
                     </div>
@@ -20,7 +20,7 @@
         </ion-list>
     </ion-content>
     <div class="overallIconsDisplay" ng-style="isShow" >
-                <a ng-click="onClickShare()"><div class="discussionIcon iconCls"></div>
+                <a ng-click="onClickShare('friends')"><div class="discussionIcon iconCls"></div>
                 <p class="txtIcon discussionTxt">Share with Friends</p></a>
 
                 <a ng-click="onClickForum()"><div class="questionsIcon iconCls"></div>

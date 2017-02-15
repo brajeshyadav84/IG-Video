@@ -44,9 +44,12 @@ IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $st
         $scope.reset ();
     };
     
-    $scope.onClickShare = function (){
+    $scope.onClickShare = function (videoURL){
         $scope.reset ();
-        $cordovaSocialSharing.share('Learn, Share & Suggest', 'InterviewGully', null, 'http://www.interviewgully.com/API/appLauncher.html');
+        if(videoURL == "friends")
+            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, 'http://www.interviewgully.com/API/appLauncher.html');
+        else
+            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, videoURL);
     };
 
     $scope.onClickForum = function (){

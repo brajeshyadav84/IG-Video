@@ -99,38 +99,38 @@
     },
     "installed_plugins": {
         "com.cordova.plugins.sms": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-admobsdk": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-admob": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-customurlscheme": {
             "URL_SCHEME": "interviewgully",
             "ANDROID_SCHEME": " ",
             "ANDROID_HOST": " ",
             "ANDROID_PATHPREFIX": "/",
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.ionicframework.interviewgully100371"
+            "PACKAGE_NAME": "com.ionicframework.interviewgully"
         }
     },
     "dependent_plugins": {},
