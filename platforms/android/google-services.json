@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "569771326404",
+    "firebase_url": "https://interviewgully.firebaseio.com",
+    "project_id": "interviewgully",
+    "storage_bucket": "interviewgully.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569771326404:android:7ae3d3975502150e",
+        "android_client_info": {
+          "package_name": "com.ionicframework.interviewgully"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569771326404-0ossp2gk0s2d92ve3596h9iedl4rhjfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ionicframework.interviewgully",
+            "certificate_hash": "46EBDD95F9880088278D6ECD01E5B89D5A38C4BA"
+          }
+        },
+        {
+          "client_id": "569771326404-bcbpec24frbvkij7off2783ndqg28s0b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHM9-NejAPnc2YCHBbQB5gGy2ypc6N69o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "569771326404-bcbpec24frbvkij7off2783ndqg28s0b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
