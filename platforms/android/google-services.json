@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "569771326404-0snkuvdu3pv7d69ds32tbevdern9g4d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ionicframework.interviewgully",
+            "certificate_hash": "A9CAC8C5AF0FF22C2AB953C3CA500AC2108E3229"
+          }
+        },
+        {
           "client_id": "569771326404-0ossp2gk0s2d92ve3596h9iedl4rhjfp.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
