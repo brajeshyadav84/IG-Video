@@ -10,7 +10,9 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     var url = "http://www.interviewgully.com/API/IG_Video/list.json";
     IGService.postAPI(request, url).then( function(response){
         console.log("home response");
-        $scope.listData = response.data;console.log($scope.listData);
+        $scope.listData = response.data[0].videos;
+        $scope.ebookData = response.data[0].ebooks;
+        console.log($scope.listData);
     },function(error){
         console.log(error);
     });

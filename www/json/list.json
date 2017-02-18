@@ -1,16 +1,77 @@
 [
-    { 
-      "Id": "IG1",
-      "Name":"IIS7",
-      "Description":"IIS7",
-      "ImageUrl": "",
-      "Status":"true"
-    },
-    { 
-      "Id": "IG2",
-      "Name":"AngularJS",
-      "Description":"AngularJS",
-      "ImageUrl": "",
-      "Status":"true"
-    }
+  { "videos": [
+      { 
+        "Id": "IG1",
+        "Name":"IIS7",
+        "Description":"Internet Information Services",
+        "ImageUrl": "http://www.interviewgully.com/API/IG_Video/images/IG1.png",
+        "Status":"true",
+        "isEmailAvailable": "false"
+      },
+      { 
+        "Id": "IG2",
+        "Name":"AngularJS",
+        "Description":"AngularJS is a JavaScript framework",
+        "ImageUrl": "http://www.interviewgully.com/API/IG_Video/images/IG2.png",
+        "Status":"true",
+        "isEmailAvailable": "true"
+      },
+      { 
+        "Id": "IG3",
+        "Name":"MongoDB",
+        "Description":"MongoDB is NoSQL Database",
+        "ImageUrl": "http://www.interviewgully.com/API/IG_Video/images/IG3.png",
+        "Status":"true",
+        "isEmailAvailable": "true"
+      },
+      { 
+        "Id": "IG4",
+        "Name":"Javascript",
+        "Description":"Javascript",
+        "ImageUrl": "http://www.interviewgully.com/API/IG_Video/images/IG4.png",
+        "Status":"true",
+        "isEmailAvailable": "true"
+      },
+      { 
+        "Id": "IG6",
+        "Name":".Net Basics",
+        "Description":"Microsoft Dotnet tutorial",
+        "ImageUrl": "http://www.interviewgully.com/API/IG_Video/images/IG5.png",
+        "Status":"true",
+        "isEmailAvailable": "true"
+      }
+    ],
+    "ebooks": [
+      {
+        "Id": "E1",
+        "Name":"Angular 2",
+        "eUrl": "http://www.interviewgully.com/ebooks/AngularJS2.pdf",
+        "Status":"true"
+      },
+      {
+        "Id": "E2",
+        "Name":"JQuery Recipes",
+        "eUrl": "http://www.interviewgully.com/ebooks/jQuery.pdf",
+        "Status":"true"
+      },
+      {
+        "Id": "E3",
+        "Name":"ASP.NET MVC3 framework",
+        "eUrl": "http://www.interviewgully.com/ebooks/ASP-NET-MVC3-Framework.pdf",
+        "Status":"true"
+      },
+      {
+        "Id": "E4",
+        "Name":"ReactJS",
+        "eUrl": "http://www.interviewgully.com/ebooks/ReactJS.pdf",
+        "Status":"true"
+      },
+      {
+        "Id": "E5",
+        "Name":"Reactive programming with Reactjs",
+        "eUrl": "http://www.interviewgully.com/ebooks/Reactive-programming-with-Reactjs.pdf",
+        "Status":"true"
+      }
+    ]
+  }  
 ]

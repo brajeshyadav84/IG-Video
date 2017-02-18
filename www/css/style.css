@@ -298,4 +298,13 @@ a {
     padding: 10px;
 }
 
+.onecolumn{
+    height: 40px;
+    padding: 10px;
+}
 
+.section-title{
+    color: #0c60ee;
+    font-size: 18px;
+    text-shadow: 0px 1px 2px;
+}

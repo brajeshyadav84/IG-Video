@@ -1,6 +1,7 @@
 <ion-pane ng-controller="homeController">
     <ion-content>
         <ion-list>
+            <div class="wrap-container wrapflex section-title">Videos Tutorials</div>
             <ul class="wrap-container wrapflex">
                 <li ng-class="{showSection: data.Status == 'true'}" class="layout-twoColumn layout-list-container hideSection" ng-repeat="data in listData">
                     <div class="list-thumbnail" ng-click="onClickTutorial(data.Id,data.Name,data.isEmailAvailable)">
@@ -11,6 +12,19 @@
                       <div style="width:65%"></div>
                       <div style="width:35%;color: blue;" ng-click="onClickShare()"><i class="ion-android-share-alt" style="padding-right: 5px;"></i>Share</div>
                     </div> -->
+                </li>
+            </ul>
+            <div class="wrap-container wrapflex section-title">e-Books</div>
+            <ul class="wrap-container wrapflex">
+                <li ng-class="{showSection: data.Status == 'true'}" class="layout-oneColumn layout-list-container hideSection" ng-repeat="data in ebookData">
+                    <div class="onecolumn">
+                        {{data.Name}}
+                    </div>
+                    <div class="title sub-container ng-binding">
+                      <div style="width:60%"></div>
+                      <div style="width:20%;color: blue;" ng-click="onClickShare()"><i class="ion-document-text" style="padding-right: 5px;"></i>Open</div>
+                      <div style="width:20%;color: blue;" ng-click="onClickShare()"><i class="ion-android-share-alt" style="padding-right: 5px;"></i>Share</div>
+                    </div>
                 </li>
             </ul>
             

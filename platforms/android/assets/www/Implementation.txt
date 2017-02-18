@@ -1,0 +1,13 @@
+<div class="overallIconsDisplay" style="display: none;">
+	<a href="/provider/promote"><div class="profileIcon iconCls"></div>
+	<p class="txtIcon profileTxt">Promote your Profile</p></a>
+	
+	<a href="#" onclick="showRecentQuestions();"> <div class="questionsIcon iconCls"></div>
+	<p class="txtIcon questionsTxt">Answer the Questions</p></a>
+	
+	<div class="whiteIconOverlay"></div>
+</div>
+
+
+
+

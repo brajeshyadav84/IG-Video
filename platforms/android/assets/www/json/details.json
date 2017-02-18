@@ -1,0 +1,78 @@
+[    {
+        "IG1" : [
+            {
+                "title": "Installing necessary IIS7 Component",
+                "videoURL": "http://www.youtube.com/watch?v=3l-kXkcPC7E",
+                "videoID": "3l-kXkcPC7E"
+            },
+            {
+                "title": "Serving New Content IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=rUIoKYRwFlY",
+                "videoID": "rUIoKYRwFlY"
+            },
+            {
+                "title": "Troubleshooting Issue IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=zEXqL-eslSo",
+                "videoID": "zEXqL-eslSo"
+            },
+            {
+                "title": "Editing Configuration files IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=PfIk26wV06Y",
+                "videoID": "PfIk26wV06Y"
+            },
+            {
+                "title": "Delegation configuration to web config Files IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=1bxZcTSQIfc",
+                "videoID": "1bxZcTSQIfc"
+            },
+            {
+                "title": "Form Authentication IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=JipudAibFNM",
+                "videoID": "JipudAibFNM"
+            },
+            {
+                "title": "Configuring SSL in IIS manager IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=pc2ESzR5vXY",
+                "videoID": "pc2ESzR5vXY"
+            },
+            {
+                "title": "Extending web server functionality IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=IE6ie3oTtbM",
+                "videoID": "IE6ie3oTtbM"
+            },
+            {
+                "title": "Boost performance with nativ output caching IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=0XVPmFjWNFA",
+                "videoID": "0XVPmFjWNFA"
+            },
+            {
+                "title": "Window server core IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=lbN7EpEC7Xs",
+                "videoID": "lbN7EpEC7Xs"
+            },
+            {
+                "title": "Configure web farm with window server 2008 IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=9CcNa2iX-_k",
+                "videoID": "9CcNa2iX-_k"
+            },
+            {
+                "title": "Remote adminstration with II7 Installation",
+                "videoURL": "http://www.youtube.com/watch?v=Hg8hmlLWULs",
+                "videoID": "Hg8hmlLWULs"
+            },
+            {
+                "title": "URL Authorization and request filtering IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=qUjlmztQL7A",
+                "videoID": "qUjlmztQL7A"
+            },
+            {
+                "title": "Exploring security with IIS7",
+                "videoURL": "http://www.youtube.com/watch?v=cJ-61bQxkEc",
+                "videoID": "cJ-61bQxkEc"
+            }
+        ],
+        "IG2" : [
+            {}
+        ]
+    }
+]
