@@ -22,8 +22,8 @@
                     </div>
                     <div class="title sub-container ng-binding">
                       <div style="width:60%"></div>
-                      <div style="width:20%;color: blue;" ng-click="onClickShare()"><i class="ion-document-text" style="padding-right: 5px;"></i>Open</div>
-                      <div style="width:20%;color: blue;" ng-click="onClickShare()"><i class="ion-android-share-alt" style="padding-right: 5px;"></i>Share</div>
+                      <div style="width:20%;color: blue;" ng-click="onClickOpen(data.eUrl)"><i class="ion-document-text" style="padding-right: 5px;"></i>Open</div>
+                      <div style="width:20%;color: blue;" ng-click="onClickShare(data.eUrl)"><i class="ion-android-share-alt" style="padding-right: 5px;"></i>Share</div>
                     </div>
                 </li>
             </ul>
@@ -31,7 +31,7 @@
         </ion-list>
     </ion-content>
     <div class="overallIconsDisplay" ng-style="isShow">
-                <a ng-click="onClickShare()"><div class="profileIcon iconCls"></div>
+                <a ng-click="onClickShare('friends')"><div class="profileIcon iconCls"></div>
                 <p class="txtIcon profileTxt">Share with Friends</p></a>
                 
                 <a ng-click="onClickForum()"><div class="discussionIcon iconCls"></div>

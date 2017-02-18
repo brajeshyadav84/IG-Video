@@ -86,9 +86,17 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
         $scope.reset ();
     };
     
-    $scope.onClickShare = function (){
+    $scope.onClickShare = function (eURL){
         $scope.reset ();
-        $cordovaSocialSharing.share('Learn, Share & Suggest', 'InterviewGully', null, 'http://www.interviewgully.com/API/appLauncher.html');
+        if(eURL == "friends")
+            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, 'http://www.interviewgully.com/API/appLauncher.html');
+        else
+            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, eURL);
+    };
+
+    $scope.onClickOpen = function (eURL){
+        $scope.reset ();
+        window.open(eURL, '_system');
     };
 
     $scope.onClickForum = function (){
