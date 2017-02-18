@@ -251,6 +251,8 @@ dependencies {
     // SUB-PROJECT DEPENDENCIES START
     debugCompile(project(path: "CordovaLib", configuration: "debug"))
     releaseCompile(project(path: "CordovaLib", configuration: "release"))
+    compile "com.google.android.gms:play-services-base:+"
+    compile "com.google.android.gms:play-services-ads:+"
     // SUB-PROJECT DEPENDENCIES END
     compile 'com.google.android.gms:play-services-base:10.0.1'
     compile 'com.google.android.gms:play-services-ads:10.0.1'
@@ -317,4 +319,4 @@ if (hasProperty('postBuildExtras')) {
     postBuildExtras()
 }
 
-apply plugin: 'com.google.gms.google-services'
+//apply plugin: 'com.google.gms.google-services'

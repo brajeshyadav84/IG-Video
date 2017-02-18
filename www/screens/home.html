@@ -1,7 +1,7 @@
 <ion-pane ng-controller="homeController">
     <ion-content>
         <ion-list>
-            <div class="wrap-container wrapflex section-title">Videos Tutorials</div>
+            <div class="wrap-container wrapflex section-title">Video Tutorials</div>
             <ul class="wrap-container wrapflex">
                 <li ng-class="{showSection: data.Status == 'true'}" class="layout-twoColumn layout-list-container hideSection" ng-repeat="data in listData">
                     <div class="list-thumbnail" ng-click="onClickTutorial(data.Id,data.Name,data.isEmailAvailable)">
@@ -17,7 +17,7 @@
             <div class="wrap-container wrapflex section-title">e-Books</div>
             <ul class="wrap-container wrapflex">
                 <li ng-class="{showSection: data.Status == 'true'}" class="layout-oneColumn layout-list-container hideSection" ng-repeat="data in ebookData">
-                    <div class="onecolumn">
+                    <div class="onecolumn title">
                         {{data.Name}}
                     </div>
                     <div class="title sub-container ng-binding">
@@ -27,6 +27,7 @@
                     </div>
                 </li>
             </ul>
+            <br/><br/><br/>
             
         </ion-list>
     </ion-content>
