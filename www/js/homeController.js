@@ -2,7 +2,8 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     console.log("home");
     $rootScope.title = "InterviewGully";
     $rootScope.back = "backHide";
-    
+    $scope.isShowModal = false;
+
     var request = {
         
     };
@@ -40,10 +41,16 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
                 $scope.showConfirm(data.iosSettings.itunesurl);
             }
         }
+
+        $scope.isShowModal = true;
         
     },function(error){
         console.log(error);
     });
+
+    $scope.onClickCloseModal = function (){
+        $scope.isShowModal = false;
+    };
 
 
     $scope.showConfirm = function(storeURL) {
