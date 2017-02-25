@@ -42,7 +42,9 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
             }
         }
 
-        $scope.isShowModal = true;
+        $scope.isShowModal = data.isShowModal;
+        $scope.modalTitle = data.modalTitle;
+        $scope.modalDesc = data.modalDesc;
         
     },function(error){
         console.log(error);
