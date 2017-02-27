@@ -389,6 +389,11 @@ a {
     justify-content: space-between;
 }
 
+.popup-body-content{
+    height: 55%;
+    overflow: scroll;
+}
+
 .btn{
     height: 30px;
     width: 100%;
