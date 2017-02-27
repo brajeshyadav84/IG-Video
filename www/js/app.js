@@ -77,3 +77,9 @@ IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $sc
   $urlRouterProvider.otherwise('/home');
 
 });
+
+
+// Filter
+IG.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
+
+
