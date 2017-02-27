@@ -12,4 +12,8 @@ IG.controller('indexController', function($scope, $ionicHistory, $rootScope, $st
         }
 
     };
+
+    $scope.myNotification = function() {
+        $state.go("notification");
+    }
 });
