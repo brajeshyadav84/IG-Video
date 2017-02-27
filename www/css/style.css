@@ -403,3 +403,21 @@ a {
     border: none;
     font-size: 13px;
 }
+
+.wraptext{
+    word-wrap: break-word;
+    height: auto;
+    white-space: normal !important;
+    color: #0b74e0 !important;
+}
+
+.noData {
+    height: 50%;
+    width: 100%;
+    margin-top: 35%;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+

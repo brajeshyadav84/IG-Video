@@ -61,6 +61,12 @@ IG.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider, $sc
     controller: "detailsController"
    })
 
+  .state('notification', {
+    url: '/notification',
+    templateUrl: 'screens/notification.html',
+    controller: "notificationController"
+   })
+
   .state('play', {
     url: '/play/:ID/:Name',
     templateUrl: 'screens/play.html',
