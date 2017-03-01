@@ -98,11 +98,11 @@ IG.controller('homeController', function($scope, $http, $rootScope, $state, $sta
     $scope.onClickShare = function (eURL){
         $scope.reset ();
         if(eURL == "friends")
-            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, 'http://www.interviewgully.com/appLauncher');
+            $cordovaSocialSharing.share('InterviewGully : Learn, Share & Suggest - ', 'InterviewGully', null, 'http://www.interviewgully.com/appLauncher');
         else if(eURL == "popup")
-            $cordovaSocialSharing.share($scope.modalTitle, 'InterviewGully', null, 'http://www.interviewgully.com/appLauncher');
+            $cordovaSocialSharing.share($scope.modalTitle, 'InterviewGully', null, $scope.modalDesc);
         else
-            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, eURL);
+            $cordovaSocialSharing.share('InterviewGully : Learn, Share & Suggest - ', 'InterviewGully', null, eURL);
     };
 
     $scope.onClickOpen = function (eURL){

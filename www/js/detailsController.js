@@ -47,7 +47,7 @@ IG.controller('detailsController', function($sce, $scope, $http, $rootScope, $st
     $scope.onClickShare = function (videoURL){
         $scope.reset ();
         //if(videoURL == "friends")
-            $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, 'http://www.interviewgully.com/appLauncher');
+            $cordovaSocialSharing.share('Nice '+$rootScope.title+ ' videos on - ', 'InterviewGully', null, 'http://www.interviewgully.com/appLauncher');
         //else
         //    $cordovaSocialSharing.share('Learn, Share & Suggest - ', 'InterviewGully', null, videoURL);
     };

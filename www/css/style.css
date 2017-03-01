@@ -360,6 +360,10 @@ a {
     float: right;
     font-size: 28px;
     font-weight: bold;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .close:hover,
